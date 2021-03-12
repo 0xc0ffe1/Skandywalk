@@ -1,0 +1,1 @@
+jQuery(window).on("load",function(){jQuery(".loading-animation").fadeOut(2500)});jQuery(window).on("load",function(){jQuery(".loading-bar").fadeOut(2500)});jQuery(window).on("load",function(){jQuery(".loading-screen").fadeOut(2500)});

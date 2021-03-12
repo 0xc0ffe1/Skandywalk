@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+}
+
+
+.menu{
+  background-color: beige;
+  display: block;
+  border: 3px solid;
+  border-color: gray;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+#main-a{
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-size: 50px;
+  font-family: sans-serif;
+  text-align:center;
+  padding: 20px;
+
+  }
+
+
+sup {
+  font-size: 20px;
+  font-family: helvetica;
+  margin-left: 10px;
+}
+
+
+#page-not-found {
+text-align: center;
+align-items: center;
+justify-content: center;
+border: 10px solid red;
+display: inline-block;
+background-color: #FFE4B5;
+padding: 15px;
+margin-top: 7%;
+}
+
+#links {
+  margin-top: 5%;
+}
+
+.links {
+  background-color: silver;
+  border-radius: 25px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: underline;
+  color: black;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 500px){
+	.links {
+		display: grid;
+		margin: 20px 0px 20px 0px;
+	}
+}
